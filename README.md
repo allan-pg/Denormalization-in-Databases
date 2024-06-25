@@ -9,8 +9,8 @@ Fetching queries in a normalized database generally requires joining a large num
 A normalized database is not required calculated values for applications. Calculating these values on-the-fly will take a longer time, slowing down the execution of the query. Thus, in denormalization, fetching queries can be simpler because we need to look at fewer tables.
 
 ## cons of Denormalization
-- increased complexity, maintenance and storage costs and data inconsistencies.
-- data redundancy
+- Increased complexity, maintenance and storage costs and data inconsistencies.
+- Data redundancy: is when multiple copies of the same information are stored in more than one place at a time. This challenge plagues organizations of all sizes in all industries and leads to elevated storage costs, errors, and compromised analytics.
  
 **How is denormalization different from normalization?**
 - Denormalization is a technique used to merge data from multiple tables into a single table that can be queried quickly. Normalization, on the other hand, is used to delete redundant data from a database and replace it with non-redundant and reliable data.
